@@ -1,3 +1,7 @@
+restricted:
+  emails:
+    - test1@gmail.com
+    - test2@gmail.com
 eureka:
   client:
     fetch-registry: true
@@ -7,4 +11,4 @@ eureka:
   instance:
     prefer-ip-address: true
     lease-renewal-interval-in-seconds: 30
-    lease-expiration-duration-in-seconds: 90
+    lease-expiration-duration-in-seconds: 9
