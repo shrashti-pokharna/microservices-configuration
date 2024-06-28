@@ -1,7 +1,10 @@
+#restricted emails that cannot add or withdraw money from the account
 restricted:
   emails:
     - test1@gmail.com
     - test2@gmail.com
+
+# configuration for service discovery eureka client
 eureka:
   client:
     fetch-registry: true
